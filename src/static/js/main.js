@@ -6,6 +6,7 @@ let pressure = document.getElementById('pressure')
 let uv = document.getElementById('UV')
 let start_date = document.getElementById('start_date');
 let end_date = document.getElementById('end_date');
+
 btn.addEventListener('click', async ()=>
 {
     if (!start_date.value || !end_date.value)
